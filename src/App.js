@@ -8,13 +8,12 @@ import MainLayout from "./components/MainLayout";
 function App() {
   return (
     <BrowserRouter>
-      {/* <MainLayout> */}
+      <MainLayout />
       <Routes>
         <Route path="/reverse-array" element={<ReverseArray />} />
         <Route path="/login" element={<LoginForm />} />
         <Route path="/register" element={<RegisterForm />} />
       </Routes>
-      {/* </MainLayout> */}
     </BrowserRouter>
   );
 }
